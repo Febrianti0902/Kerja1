@@ -1,6 +1,6 @@
 import 'package:coba1/menu.dart';
-import 'package:coba1/status.dart';
-import 'package:coba1/testaja.dart';
+// import 'package:coba1/status.dart';
+// import 'package:coba1/testaja.dart';
 import 'package:flutter/material.dart';
 import './sigin.dart';
 

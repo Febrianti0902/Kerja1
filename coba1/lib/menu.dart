@@ -3,6 +3,7 @@ import 'package:coba1/home.dart';
 import 'package:coba1/profil.dart';
 import 'package:flutter/material.dart';
 import 'package:coba1/result_page.dart';
+import 'package:coba1/camera.dart';
 import 'camera_page.dart';
 
 class HomePage extends StatefulWidget {
@@ -61,7 +62,8 @@ class _HomePageState extends State<HomePage> {
                 Navigator.push(
                   context,
                   MaterialPageRoute(
-                    builder: (context) => CameraApp(),
+                    builder: (context) => Camera(),
+
                   ),
                 );
               },

@@ -7,7 +7,7 @@ import sys
 
 # Image Processing
 kernel = np.ones((5, 5), np.uint8)
-image = cv2.imread('Samping19.jpeg')
+image = cv2.imread('Depan19.jpeg')
 image_gray = cv2.cvtColor(image, cv2.COLOR_BGR2GRAY)
 image_blurred = cv2.GaussianBlur(image_gray, (9, 9), 0)
 edges = cv2.Canny(image_blurred, 30, 150)
